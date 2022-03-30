@@ -1,5 +1,5 @@
 # Welcome to the Star Jeans Data Analysis
-![alt text](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/real_estate.jpg?raw=true)
+![alt text](https://github.com/lfreitas16/Webscraping-Star-Jeans/blob/main/star_jeans.jpg?raw=true)
 
 ## 1 - Business Problem
 
@@ -62,8 +62,7 @@ Hennes&Mauritz (H&M) group is headquartered in Sweden. It is a retail firm that 
 * Use Cron to schedule and run automatically the jobs. Cron runs in the background, and executes scheduled jobs known as “cron jobs”.
 * Use the Python logging module to generate and store the Logs. The logging module lets you track events when your code runs so that when the code crashes you can check the logs and identify what caused it.
 
-COLAR IMAGEM AQUI: ETL_architecture.jpg
-![ETL Architecture](https://github.com/lfreitas16/Insights-House-Rocket/blob/main/real_estate.jpg?raw=true)
+![ETL Architecture](https://github.com/lfreitas16/Webscraping-Star-Jeans/blob/main/ETL_architecture.jpg?raw=true)
 
 **Step 04. Database Creation:** Create a new table in an SQLite database and insert records about the products. To create a new table you use the following steps:
 
@@ -71,7 +70,7 @@ COLAR IMAGEM AQUI: ETL_architecture.jpg
 * Second, create a Cursor object by calling the cursor() method of the Connection object.
 * Third, pass the CREATE TABLE statement to the execute() method of the Cursor object and execute this method.
 
-**Step 05. Data Analysis:** Analyze each of the columns providing descriptive metrics for each attribute, obtaining a table with a statistical summary of the dataframe.
+**Step 05. Data Analysis:** Analyze each of the columns providing descriptive metrics for each attribute, obtaining a table with a statistical summary of the dataframe. 
 
 **Step 06. Data Visualization:** Create different graphs to explore and better understand our data. **ESCREVER UM RESUMO DOS GRÁFICOS USADOS AQUI**
 
@@ -99,11 +98,11 @@ The sale price was calculated for two situations:
 | Grand Total | 21613 | 11,672,925,008.00 | 13,689,383,912.40 | 2,016,458,904.40 |
 
 ## 5 - Conclusions
-Web Scrapping is very appropriate for
+Web Scrapping is very appropriate for 
 market trend analysis
 gaining insights into a particular market
 
-Web Scraping can be used by companies to scrap the product data
+Web Scraping can be used by companies to scrap the product data 
 fix the optimal pricing for their products so that they can obtain maximum revenue.
 
 ## 6 - Next Steps to Improve
