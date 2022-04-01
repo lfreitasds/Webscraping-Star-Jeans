@@ -62,7 +62,7 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
 ## 4 - Business Results
 
-To start their operation, the new product line may consist of the 5 most frequent models.
+To start the operation, the new product line may consist of the 5 most frequent models found in the data.
 
 **4.1 - Median price for the 5 most frequent models:** 
 
@@ -88,7 +88,6 @@ You can open the report with the median prices for all the models here:
 | 5 | Dark Gray |
 
 You can find more information in the Project Notebook: [Notebook.ipynb](https://github.com/lfreitas16/Webscraping-Star-Jeans/blob/main/Notebook.ipynb)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 5 - Conclusions
 
