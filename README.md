@@ -5,17 +5,17 @@
 
 ### 1.1 - Description
 
-Star Jeans is a clothing company (fictional) owned by two Brazilian entrepreneurs Eduardo and Marcelo. After several successful businesses, they are planning to enter the US fashion market as an online eCommerce website.
+Star Jeans is a clothing company (fictional) owned by two Brazilian entrepreneurs Eduardo and Marcelo. After several successful businesses, they decided to enter the US fashion market as an online eCommerce website.
 
-To keep their operating costs down they will only sell men’s jeans at first. As they get more customers, they may grow their clothing brand.
+Initially, to keep their operating costs low, they will only sell men's jeans. As they get more customers, they may expand their clothing brand.
 
-With no experience in the fashion market, they don't know how to define the price, the models, the colors to design the products.
+With no experience in the fashion market, they don't know the best fabrics, colors, and designs to launch and how much their competitors charge for similar products.
 
-For this reason, they decided to hire our Data Science consultancy services to help on their decision-making.
+For this reason, they decided to hire our Data Science consultancy to help with their decision-making.
 
 ### 1.2 - Data Overview
 
-The data was collected from one of the Star Jeans main competitor's website using web scraping from March-?? 2022 through March-??? 2022. Below is a breakdown of the attributes:
+The data was collected from H&M's website, one of Star Jeans' top competitors, from March-24th through March-29th, 2022. Below is a breakdown of the attributes:
 
 | Attribute | Description |
 | :----- | :----- |
@@ -36,15 +36,13 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
 ## 2 - Business Assumptions
 
-* OS MODELOS COM MAIS PRODUTOS PRODUTOS FORAM CONSIDERADOS OS MAIS POPULARES
+* The best-selling models were considered to be those with the highest number of products.
 
-* AS CORES COM MAIS PRODUTOS FORAM CONSIDERADOS AS MAIS POPULARES
-
-* DDDD.
+* The best-selling colors were considered to be those with the highest number of products.
 
 ## 3 - Solution Strategy
 
-**Step 01. Data Collection:** Use web scraping to collect data from the H&M's website. Web scraping is an automated method used to extract large amounts of data from websites. Hennes&Mauritz (H&M) is a retail firm that sells clothing and accessories at a fair price.
+**Step 01. Data Collection:** Use web scraping to collect data from H&M's website. Web scraping is an automated method used to extract large amounts of data from websites. Hennes&Mauritz (H&M) is a retail firm that sells clothing and accessories at a fair price.
 
 **Step 02. Data Cleaning:** It is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.
 
@@ -63,14 +61,11 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
 **Step 06. Data Visualization:** Create different graphs to explore and better understand the data.
 
-
 ## 4 - Business Results
 
-FALAR QUE PARA COMEÇAR ELES PODEM ESCOLHER OS MODELOS COM MAIS PRODUTOS
-CALCULADO A MEDIANA DOS PREÇOS DOS PRODUTOS  
-AGRUPANDO POR MODELO
+To start their operation, their new product line may consist of the 5 most frequent models, in other words, those with the highest number of products.
 
-**4.1 - Median price for the most used models:** 
+**4.1 - Median price for the 5 most frequent models:** 
 
 | Item | Jeans' Model | Price (US$) |
 | :-----: | :-----: | :-----: |
@@ -83,10 +78,7 @@ AGRUPANDO POR MODELO
 You can open the report with the median prices for all the models here:
 [price_report.csv](https://github.com/lfreitas16/Webscraping-Star-Jeans/blob/main/price_report.csv)
 
-**4.2 - The most used colors:** 
-
-FALAR DO TOTAL DE CORES E
-QUE ESSAS FORAM AS MAIS USADAS
+**4.2 - The most frequent colors:** 
 
 | Item | Jeans' Color |
 | :-----: | :----- |
@@ -100,24 +92,17 @@ You can find more information in the Project Notebook
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 COLOCAR O LINK PARA O NOTEBOOK
 
-
 ## 5 - Conclusions
 
-Web Scrapping is very appropriate for 
-market trend analysis
-gaining insights into a particular market
+Web Scrapping is very appropriate for understanding a competitor's pricing strategy.
 
-Web Scraping can be used by companies to scrap the product data 
-fix the optimal pricing for their products so that they can obtain maximum revenue.
-
-FALAR QUE DÁ PARA FAZER MONITORAMENTO AUTOMÁTICO
-COM COLETA DE DADOS EM UM BANCO DE DADOS 
+A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The ETL can run independently with the extracted data moved into a centralized data repository. 
 
 ## 6 - Next Steps to Improve
 
-* Desenvolver um sistema para controle dinâmico do preço do concorrente. Dynamic Price Monitoring
-* Seria interessante para definir os produtos a ser lançados coletar também informações sobre os tamanhos.
-* Coletar os dados diariamente por um mês, ou uma vez ao mês por um ano para observar a tendências  e o impacto da sazonalidade.
+* Collect information about product's available sizes.
+* Collect data regularly for a longer period to observe trends and the impact of seasonality.
+* Develop a competitor price monitoring system to stay informed of every price change on a regular basis.
 
 ## 7 - Technologies
 
