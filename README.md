@@ -91,7 +91,7 @@ You can find more information in the Project Notebook: [Notebook.ipynb](https://
 
 ## 5 - Conclusions
 
-Web scrapping is very appropriate for understanding a competitor's pricing strategy.
+Web scrapping is very appropriate for market trend analysis. It is widely used to collect data from several online shopping sites and compare the prices of products and make profitable pricing decisions.
 
 A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The script can run independently with the extracted data being moved into a centralized data repository. 
 
