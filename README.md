@@ -7,7 +7,7 @@
 
 Star Jeans is a clothing company (fictional) owned by two Brazilian entrepreneurs Eduardo and Marcelo. After several successful businesses, they decided to enter the US fashion market as an online eCommerce website.
 
-Initially, to keep their operating costs low, they will only sell men's jeans. As they get more customers, they may expand their clothing brand.
+Initially, to keep the operating costs low, they will only sell men's jeans. As they get more customers, they may expand their clothing brand.
 
 With no experience in the fashion market, they don't know the best fabrics, colors, and designs and how much their competitors charge for similar products.
 
@@ -15,7 +15,8 @@ For this reason, they decided to hire our Data Science consultancy to help with 
 
 ### 1.2 - Data Overview
 
-The data was collected from H&M's website, one of Star Jeans' top competitors, from March-24th through March-29th, 2022. Below is a breakdown of the attributes:
+The data was collected from H&M's website, one of Star Jeans' top competitors, from March-24th through March-29th, 2022. 
+Below is a breakdown of the attributes:
 
 | Attribute | Description |
 | :----- | :----- |
@@ -34,10 +35,9 @@ The data was collected from H&M's website, one of Star Jeans' top competitors, f
 
 Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
-## 2 - Business Assumptions
+## 2 - Business Assumption
 
-* The best-selling models were considered to be those with the highest number of products.
-* The best-selling colors were considered to be the most frequent ones.
+* The best-selling models and colors were considered to be those used in the highest number of products.
 
 ## 3 - Solution Strategy
 
@@ -62,11 +62,11 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
 ## 4 - Business Results
 
-To start their operation, the new product line may consist of the 5 most frequent models, in other words, those with the highest number of products.
+To start their operation, the new product line may consist of the 5 most frequent models.
 
 **4.1 - Median price for the 5 most frequent models:** 
 
-| Item | Jeans' Model | Price (US$) |
+| Item | Model | Price (US$) |
 | :-----: | :-----: | :-----: |
 | 1 | Skinny Jeans | 19.99 |
 | 2 | Slim Jeans | 19.99 |
@@ -79,7 +79,7 @@ You can open the report with the median prices for all the models here:
 
 **4.2 - The most frequent colors:** 
 
-| Item | Jeans' Color |
+| Item | Color |
 | :-----: | :----- |
 | 1 | Light Denim Blue |
 | 2 | Black |
@@ -94,7 +94,7 @@ You can find more information in the Project Notebook: [Notebook.ipynb](https://
 
 Web scrapping is very appropriate for understanding a competitor's pricing strategy.
 
-A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The ETL can run independently with the extracted data being moved into a centralized data repository. 
+A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The script can run independently with the extracted data being moved into a centralized data repository. 
 
 ## 6 - Next Steps to Improve
 
