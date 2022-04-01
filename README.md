@@ -9,7 +9,7 @@ Star Jeans is a clothing company (fictional) owned by two Brazilian entrepreneur
 
 Initially, to keep their operating costs low, they will only sell men's jeans. As they get more customers, they may expand their clothing brand.
 
-With no experience in the fashion market, they don't know the best fabrics, colors, and designs to launch and how much their competitors charge for similar products.
+With no experience in the fashion market, they don't know the best fabrics, colors, and designs and how much their competitors charge for similar products.
 
 For this reason, they decided to hire our Data Science consultancy to help with their decision-making.
 
@@ -37,8 +37,7 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 ## 2 - Business Assumptions
 
 * The best-selling models were considered to be those with the highest number of products.
-
-* The best-selling colors were considered to be those with the highest number of products.
+* The best-selling colors were considered to be the most frequent ones.
 
 ## 3 - Solution Strategy
 
@@ -88,19 +87,18 @@ You can open the report with the median prices for all the models here:
 | 4 | Dark Denim Blue |
 | 5 | Dark Gray |
 
-You can find more information in the Project Notebook  
+You can find more information in the Project Notebook: [Notebook.ipynb](https://github.com/lfreitas16/Webscraping-Star-Jeans/blob/main/Notebook.ipynb)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-COLOCAR O LINK PARA O NOTEBOOK
 
 ## 5 - Conclusions
 
-Web Scrapping is very appropriate for understanding a competitor's pricing strategy.
+Web scrapping is very appropriate for understanding a competitor's pricing strategy.
 
-A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The ETL can run independently with the extracted data moved into a centralized data repository. 
+A scheduled ETL process is also extremely beneficial, saving a lot of time and effort. The ETL can run independently with the extracted data being moved into a centralized data repository. 
 
 ## 6 - Next Steps to Improve
 
-* Collect information about product's available sizes.
+* Collect information about available sizes.
 * Collect data regularly for a longer period to observe trends and the impact of seasonality.
 * Develop a competitor price monitoring system to stay informed of every price change on a regular basis.
 
