@@ -62,7 +62,7 @@ Data source: [H&M Website](https://www2.hm.com/en_us/men/products/jeans.html)
 
 ## 4 - Business Results
 
-To start their operation, their new product line may consist of the 5 most frequent models, in other words, those with the highest number of products.
+To start their operation, the new product line may consist of the 5 most frequent models, in other words, those with the highest number of products.
 
 **4.1 - Median price for the 5 most frequent models:** 
 
